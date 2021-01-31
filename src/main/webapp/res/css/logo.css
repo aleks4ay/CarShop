@@ -1,0 +1,36 @@
+.inner_logo {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 440px;
+    width: calc(100% - 40px);
+    padding: 44px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 2px 6px rgb(0 0 0);
+    -moz-box-shadow: 0 2px 6px rgba(0,0,0,.2);
+    box-shadow: 0 2px 6px rgb(0 0 0);
+    min-width: 320px;
+    min-height: 338px;
+    overflow: hidden;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.middle { /* vertical align */
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+body {
+    background: rgba(51, 182, 221, 0.37);
+}
+
+.center1 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
